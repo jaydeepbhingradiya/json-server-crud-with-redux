@@ -2,7 +2,6 @@ import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import AddUser from "./page/AddUser";
 import EditUser from "./page/EditUser";
-
 import Home from "./page/Home";
 
 function App() {
