@@ -1,0 +1,39 @@
+{
+  "user": [
+    {
+      "name": "jaydeep patel",
+      "address": "gadhpur",
+      "email": "jaydeep@gmail.com",
+      "contact": "9898248257",
+      "id": 2
+    },
+    {
+      "name": "Jaydeep Bhingradiya",
+      "email": "Jaydipbhingradiya.20@gmail.com",
+      "contact": "8000340860",
+      "address": "Sahjanand City, Kudasan",
+      "id": 4
+    },
+    {
+      "name": "Bhingradiya Jaydeep Talshibhai",
+      "email": "Jaydipbhingradiya.20@gmail.com",
+      "contact": "2345567876",
+      "address": "Bhingradiya wadi, shriji cinema road",
+      "id": 5
+    },
+    {
+      "name": "Jaydeep Bhingradiya",
+      "email": "Jaydipbhingradiya.20@gmail.com",
+      "contact": "1234567890",
+      "address": "Sahjanand City, Kudasan",
+      "id": 6
+    },
+    {
+      "name": "meet patel",
+      "email": "meet@gmail.com",
+      "contact": "9392983454",
+      "address": "niklo",
+      "id": 7
+    }
+  ]
+}
