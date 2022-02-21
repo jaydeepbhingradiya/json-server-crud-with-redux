@@ -39,13 +39,16 @@ function Home() {
 
   React.useEffect(() => {
     dispatch(loadUsers());
-  }, []);
+    // console.log("loading");
+  }, [dispatch]);
 
   const handleDatele = (id) => {
     if (window.confirm("are you sure you want to delete ?")) {
       dispatch(deleteUser(id));
     }
   };
+
+  console.log("env", process.env.REACT_APP_API);
   return (
     <TableContainer component={Paper}>
       <Button
@@ -60,8 +63,8 @@ function Home() {
           <TableRow>
             <StyledTableCell>Name</StyledTableCell>
             <StyledTableCell align="center">Email</StyledTableCell>
-            <StyledTableCell align="center">Contact</StyledTableCell>
             <StyledTableCell align="center">Address</StyledTableCell>
+            <StyledTableCell align="center">Contact</StyledTableCell>
             <StyledTableCell align="center">Actions</StyledTableCell>
           </TableRow>
         </TableHead>
@@ -74,7 +77,7 @@ function Home() {
               <StyledTableCell align="center">{row.email}</StyledTableCell>
               <StyledTableCell align="center">{row.address}</StyledTableCell>
               <StyledTableCell align="center">{row.contact}</StyledTableCell>
-              <StyledTableCell align="center">
+              <StyledTableCell align="right">
                 <ButtonGroup>
                   <Button
                     onClick={() => {

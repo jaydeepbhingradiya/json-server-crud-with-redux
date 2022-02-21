@@ -1,5 +1,4 @@
 import * as types from "./actionType";
-import produce from "immer";
 
 const initialState = {
   users: [],
